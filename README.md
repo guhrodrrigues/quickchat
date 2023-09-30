@@ -44,5 +44,5 @@ _You can get your API key by clicking [here](https://openai.com/blog/openai-api)
 > Start the project
 
 ```bash
-pnpm run dev
+pnpm dev
 ```
