@@ -1,8 +1,14 @@
 ## QuickChat
-
-Using the Vercel SDK to create a chat bot.
+Chatbot that uses the powerful OpenAI API to create engaging and personalized conversational experiences.
 
 <img src="./public/quickchat.png" />
+
+## Dependencies
+- Next.js
+- TypeScript
+- OpenAI API
+- Vercel SDK
+- Tailwind CSS + shadcn/ui
 
 ## Use the QuickChat
 
