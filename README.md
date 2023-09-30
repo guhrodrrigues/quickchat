@@ -37,8 +37,9 @@ pnpm install
 > Enter the environment variable
 
 ```bash
-OPENAI_API_KEY=
+OPENAI_API_KEY=""
 ```
+_You can get your API key by clicking [here](https://openai.com/blog/openai-api)._
 
 > Start the project
 
