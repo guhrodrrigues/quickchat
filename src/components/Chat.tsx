@@ -1,9 +1,9 @@
-"use client";
+'use client'
 
-import { useChat } from "ai/react";
+import { useChat } from 'ai/react'
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { Button } from '@/components/ui/button'
 import {
   Card,
   CardContent,
@@ -11,14 +11,14 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { ScrollArea } from "@/components/ui/scroll-area";
+} from '@/components/ui/card'
+import { Input } from '@/components/ui/input'
+import { ScrollArea } from '@/components/ui/scroll-area'
 
 export function Chat() {
   const { messages, input, handleInputChange, handleSubmit } = useChat({
-    api: "/api/chat",
-  });
+    api: '/api/chat',
+  })
 
   return (
     <Card className="w-[440px] animate-enter">
@@ -32,14 +32,14 @@ export function Chat() {
         <ScrollArea className="h-[600px] w-full pr-4">
           {messages.map((message) => (
             <div key={message.id} className="flex gap-3 text-sm mb-4">
-              {message.role === "user" && (
+              {message.role === 'user' && (
                 <Avatar>
                   <AvatarFallback>GR</AvatarFallback>
                   <AvatarImage src="https://github.com/guhrodriguess.png" />
                 </Avatar>
               )}
 
-              {message.role === "assistant" && (
+              {message.role === 'assistant' && (
                 <Avatar>
                   <AvatarFallback>AI</AvatarFallback>
                   <AvatarImage src="https://github.com/openai.png" />
@@ -48,7 +48,7 @@ export function Chat() {
 
               <p className="leading-relaxed">
                 <span className="block font-bold">
-                  {message.role === "user" ? "Usuário" : "IA"}
+                  {message.role === 'user' ? 'Usuário' : 'IA'}
                 </span>
                 <span className="text-muted-foreground">{message.content}</span>
               </p>
@@ -67,5 +67,5 @@ export function Chat() {
         </form>
       </CardFooter>
     </Card>
-  );
+  )
 }
