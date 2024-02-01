@@ -25,7 +25,7 @@ export function Chat() {
       <CardHeader>
         <CardTitle>QuickChat</CardTitle>
         <CardDescription>
-          Utilizando o Vercel SDK para criar um chat bot.
+          Using the Vercel SDK to create a chat bot.
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -48,7 +48,7 @@ export function Chat() {
 
               <p className="leading-relaxed">
                 <span className="block font-bold">
-                  {message.role === 'user' ? 'Usuário' : 'IA'}
+                  {message.role === 'user' ? 'User' : 'AI'}
                 </span>
                 <span className="text-muted-foreground">{message.content}</span>
               </p>
@@ -59,11 +59,11 @@ export function Chat() {
       <CardFooter>
         <form className="w-full flex gap-2" onSubmit={handleSubmit}>
           <Input
-            placeholder="Como posso te ajudar?"
+            placeholder="How can I help you?"
             value={input}
             onChange={handleInputChange}
           />
-          <Button type="submit">Enviar</Button>
+          <Button type="submit">Send</Button>
         </form>
       </CardFooter>
     </Card>

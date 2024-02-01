@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'QuickChat',
   description:
-    'O chatbot desenvolvido com a VercelSDK é a solução perfeita para melhorar o atendimento ao cliente e simplificar processos, 24 horas por dia, 7 dias por semana.',
+    'The chatbot developed with VercelSDK is the perfect solution for improving customer service and simplifying processes, 24 hours a day, 7 days a week.',
   creator: 'Gustavo Rodrigues',
   authors: [
     {
@@ -15,6 +15,11 @@ export const metadata: Metadata = {
       url: 'https://guhrodrigues.com',
     },
   ],
+  icons: {
+    apple: '/favicon.svg',
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({
@@ -23,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR">
+    <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   )
