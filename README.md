@@ -1,8 +1,14 @@
 ## QuickChat
-
-Using the Vercel SDK to create a chat bot.
+Chatbot that uses the powerful OpenAI API to create engaging and personalized conversational experiences.
 
 <img src="./public/quickchat.png" />
+
+## Dependencies
+- Next.js
+- TypeScript
+- OpenAI API
+- Vercel SDK
+- Tailwind CSS + shadcn/ui
 
 ## Use the QuickChat
 
@@ -31,11 +37,12 @@ pnpm install
 > Enter the environment variable
 
 ```bash
-OPENAI_API_KEY=
+OPENAI_API_KEY=""
 ```
+_You can get your API key by clicking [here](https://openai.com/blog/openai-api)._
 
 > Start the project
 
 ```bash
-pnpm run dev
+pnpm dev
 ```
