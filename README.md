@@ -1,16 +1,13 @@
-## QuickChat
+https://github.com/guhrodriguess/quickchat/assets/79873612/a3a19d93-47b6-43df-9524-efe9f40c993b
+
+### QuickChat
+
 Chatbot that uses the powerful OpenAI API to create engaging and personalized conversational experiences.
 
-<img src="./public/quickchat.png" />
+### Dependencies
+Next.js <b>·</b> TypeScript <b>·</b> OpenAI API <b>·</b> Vercel SDK <b>·</b> Tailwind CSS <b>·</b> shadcn/ui
 
-## Dependencies
-- Next.js
-- TypeScript
-- OpenAI API
-- Vercel SDK
-- Tailwind CSS + shadcn/ui
-
-## Use the QuickChat
+### Use the QuickChat
 
 > Clone the repository
 
@@ -18,7 +15,7 @@ Chatbot that uses the powerful OpenAI API to create engaging and personalized co
 git clone https://github.com/guhrodriguess/quickchat.git
 ```
 
-## Run a application
+### Run a application
 
 ```bash
 cd quickchat
