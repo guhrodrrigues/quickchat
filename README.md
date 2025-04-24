@@ -1,4 +1,4 @@
-https://github.com/guhrodriguess/quickchat/assets/79873612/a3a19d93-47b6-43df-9524-efe9f40c993b
+https://github.com/guhrodrrigues/quickchat/assets/79873612/a3a19d93-47b6-43df-9524-efe9f40c993b
 
 ### QuickChat
 
@@ -12,7 +12,7 @@ Next.js <b>·</b> TypeScript <b>·</b> OpenAI API <b>·</b> Vercel SDK <b>·</b>
 > Clone the repository
 
 ```bash
-git clone https://github.com/guhrodriguess/quickchat.git
+git clone https://github.com/guhrodrrigues/quickchat.git
 ```
 
 ### Run a application
